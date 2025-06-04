@@ -1,0 +1,51 @@
+/* default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* navbar section */
+.navbar-brand img {
+  border-radius: 50px;
+}
+/* feature section */
+.feature-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* hero section */
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #ddd5ee);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  padding: 0 1rem;
+}
+.card {
+  justify-content: center;
+}
+.card img {
+  height: 230px;
+  width: 250px;
+}
+.portfolio-item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+}
+
+.portfolio-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+footer a {
+  color: rgb(156, 193, 181);
+}
